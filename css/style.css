@@ -15,6 +15,7 @@ body {
     color: white;
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    text-align: center;
 }
 
 .countdown-to {
@@ -27,7 +28,10 @@ h1 {
 }
 
 .countdown-container {
+    min-width: 400px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .big-text {
