@@ -1,4 +1,4 @@
-const birthDay = "28 Sep 2023";
+let birthDay = "28 SEP 2023";
 
 function countdown() {
     const birthDate = new Date(birthDay);
@@ -14,7 +14,6 @@ function countdown() {
     let fractionOfAMinuteLeft = minutesLeft - Math.floor(minutesLeft);
     let fullMinutesLeft = Math.floor(minutesLeft); // For display
     let secondsLeft = fractionOfAMinuteLeft * 60;
-    // let fractionOfASecondLeft = secondsLeft - Math.floor(secondsLeft);
     let fullSecondsLeft = Math.floor(secondsLeft); // For display
 
     // Format time display
